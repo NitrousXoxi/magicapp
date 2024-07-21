@@ -1,0 +1,100 @@
+
+:root {
+    --primary-color: #26355D;
+    --secondary-color: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("assets/Luar_Angkasa.jpg");
+    background-image: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar {
+    background-color: var(--primary-color);
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.offcanvas-header {
+   background-color: var(--primary-color);
+   color: #eaeaea;
+}
+.offcanvas-body {
+    color: black;
+}
+
+
+
+.container {
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10% 0 0 0;
+    /* background-color: var(--primary-color); */
+}
+.intro {
+/* Suggested code may be subject to a license. Learn more: ~LicenseLog:3879072261. */
+    width: 50%;
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #eaeaea;
+    padding: 1rem;
+}
+.intro h1 {
+    /* text-align: center; */
+}
+.intro p {
+    text-align: center;
+    margin: 2% 0 0 0;
+}
+.content {
+    display: flex;
+    justify-content: space-center;
+    align-items: center;
+}
+.items {
+    margin: 50% 0 0 0;
+    background-color: var(--primary-color);
+    margin: 10% 10% 10% 0;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: #eaeaea;
+    padding: 20px;
+    text-align: center;
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+    
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+     font-size: 25%;
+    }
+}
